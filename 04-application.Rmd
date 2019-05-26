@@ -1,0 +1,46 @@
+# Data
+
+## Data Sources by Discipline
+
+### Demography and Official Statistics
+
+  * [U.S. Census Data](https://www.census.gov/data.html)
+      - [American Fact Finder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)
+      - [IPUMS](https://usa.ipums.org/usa/)
+          + U.S. census microdata with social, economic, and health variables.
+          + Create custom data sets or use online tool.
+          
+  * [UK Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity)
+  
+  * [Statistics Canada](https://www.statcan.gc.ca/eng/start)
+
+### Economics
+
+  * [Panel Study of Income Dynamics](https://psidonline.isr.umich.edu/)
+  * [University of Michigan Surveys of Consumers](http://www.sca.isr.umich.edu/)
+
+### Education
+
+  * [Institute of Education Sciences: Data Files](https://ies.ed.gov/data.asp)
+  * [National Assessment of Educational Progress Data Explorer](https://www.nationsreportcard.gov/ndecore/landing)
+  
+### Law
+
+  * [Caselaw Access Project](https://case.law/)
+      - Digital access to U.S. state and federal cases from the 1600s to present.
+      
+### Social Sciences
+
+  * [ICPSR](https://www.icpsr.umich.edu/icpsrweb/ICPSR/)
+  
+## Data Documentation
+
+Cite the source of your data. Provide links to the original data source and accompanying codebook, if any. Your data documentation will document your data analysis from the download of the raw data to the final steps of data analysis.
+
+  * [Create a Codebook](http://www.ddialliance.org/training/getting-started-new-content/create-a-codebook)
+      - List of codebook creation tools with guides and download links.
+      
+  * [Guide to Writing a Codebook](http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf)
+
+  * [How to Use R Codebook Package](https://osf.io/zrsxd/download/)
+

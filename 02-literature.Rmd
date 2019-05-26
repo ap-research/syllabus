@@ -1,0 +1,94 @@
+# Literature Review
+
+List resources for conducting literature review.
+Show example of literature review with inline citations.
+Show ways to keep track of sources for bibliography.
+
+* [How to Write a Literature Review](https://writing.wisc.edu/handbook/assignments/reviewofliterature/)
+    - contains example literature reviews from political science, philosophy, and chemistry.
+    
+Consider using a reference management system like Mendeley to organize your sources as you conduct your literature review. In fact, Mendeley has a Literature Search function, so you can manage sources and conduct literature reviews at the same time. See the Bibliography Management Section for more information on managing sources.
+
+* Databases for Literature Reviews
+
+    - [Directory of Open Access Journals](https://doaj.org/subjects)
+        + Browse by subjects in the humanities and sciences. This can be your starting point if you have not developed a research topic.
+    
+    - [arXiv](https://arxiv.org/)
+        + Open-access journal articles in fields such as mathematics, statistics, economics, physics, quantitative biology, quantiative finance, and electrical engineering
+        + [arXiv to BibTex](https://arxiv2bibtex.org): Outputs automated citations in BibTeX and other formats by typing the arXiv number of the article. For instance, just type in 1905.03758 into the search engine if the article is labeled arXiv: 1905.03758.
+        + Alternatively, use [Mendeley Web Importer](https://www.mendeley.com/reference-management/web-importer#id_2) to import article into Mendeley Desktop for automated citation outputs.
+        
+    - [Mendeley Literature Search](https://blog.mendeley.com/2013/07/08/new-release-literature-search-from-within-mendeley-deskop/)
+        + Download [Mendeley Desktop](https://www.mendeley.com/download-desktop/) and register for a free account. Mendeley Desktop syncs with your online Mendeley account, but the literature search is currently only available in the desktop version.
+        + Mendeley is primarly a reference managements software, so you can organize your citations as you conduct your literature review.
+    
+    - [CORE](https://core.ac.uk/)
+        + Search engine with the world's largest collectin of open-access research papers.
+        + For batch searches of metadata and full texts, you may consider requesting a free API key to use the [Core API](https://core.ac.uk/services/api/).
+        
+    - [ScienceOpen](https://www.scienceopen.com)
+        + Search for content, authors, collections, and journals in the [advanced search](https://www.scienceopen.com/search#advanced), where you have the option to search by discipline or key word.
+        
+    - [Dimensions](https://app.dimensions.ai/discover/publication)
+        + Search for articles in clincial sciences, biochemistry, public health, physical chemistry, and materials engineering.
+        
+    - [EBSCO Open Access](https://www.ebsco.com/open-access)
+        + Search open-access journals and dissertations. Note that dissertations can vary in quality, since they have not gone through peer review. 
+        + AP Research students should have access to a free EBSCO account from the AP Capstone program.
+    
+    - [SSRN](https://papers.ssrn.com/sol3/DisplayJournalBrowse.cfm)
+        + Many of the social science articles are free access. 
+        
+    - [ERIC: Institute of Educadtion Sciences](https://eric.ed.gov/)
+        + Search for articles related to to education research.
+        + The search engine includes the open to search for full-text articles.
+        
+    - [dblp: Computer Science Bibliography](https://dblp.org/)
+        + Index of major computer science publications.
+        + Option to search for open-access articles.
+    
+    - [EconBiz](https://www.econbiz.de/)
+        + Search for journal articles, working papers, and conference papers in economics and business.
+        + Option to search for open-access articles.
+        
+    - [MyJSTOR](https://support.jstor.org/hc/en-us/articles/115004760028-MyJSTOR-How-to-Register-Get-Free-Access-to-Content)
+        + You can sign up for a free MyJSTOR account to access up to six articles a month for free.
+        + This may be helpful for accessing articles that are not open access.
+        
+* Tips for Accessing Paywalled Articles
+
+    - Search for the author's website. Many researchers have draft manuscripts on their websites or research profiles on sites such as [ResearchGate](https://www.researchgate.net/).
+    - Consult your school's research librarian for other ways to access the article.
+    - Send the author an e-mail to request for a digital copy of the article. You should provide context in the e-mail request by including a brief description of your AP Research project and its relevance and connection to the author's article.
+
+
+# Bibliography Management
+
+While the bibliography is placed at the end of research papers, reference management begins as soon as you begin your literature review.
+
+* [Managing Citations in LaTeX](https://guides.library.yale.edu/bibtex/bibstyles)
+
+* [Mendeley Desktop Download](https://www.mendeley.com/download-desktop/)
+
+    - The download will prompt you to create a free account. Mendeley Desktop is synced with your online account.
+    
+* [Mendeley Web Importer](https://www.mendeley.com/reference-management/web-importer#id_2)
+
+    - As you search for research articles online, you can use the Mendeley Web Importer to import citations into your Mendeley Desktop. If the importer can recognize the online article's metadata, it will automatically populate the citation entries. If not, you can still enter the citation entries manually and import into the Mendeley Desktop to keep track of your sources.
+    
+* [Mendeley Tutorials](https://guides.library.yale.edu/mendeleybasics/mendeley/mendeley-desktop)
+
+* Exporting .bib files from Mendeley Desktop
+* Install MS Word plugin
+* [Import Mendelay sources into LyX](https://onhavingwords.wordpress.com/2013/03/19/mendeley-lyx/)
+
+* [Import .RIS Files into Mendeley](https://libguides.nus.edu.sg/c.php?g=145734&p=1433095)
+  
+# Paper Guidelines
+
+* [AP Research Proposal Guidelines](https://www.overleaf.com/read/ncvzdvcvfxdx)
+* [AP Research Paper Guidelines (LaTeX)](https://www.overleaf.com/read/hxctjpdnvffw)
+    + draft in progress
+
+# File Organization
