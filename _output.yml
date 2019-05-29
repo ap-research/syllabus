@@ -3,11 +3,11 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">AP Research</a></li>
+        <li><a href="https://apscholar.github.io/ap-research">AP Research</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
-    download: ["pdf", "epub"]
+    edit:
+    download: ["pdf"]
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

@@ -141,6 +141,8 @@ pandoc.table(game_long, caption = "(\\#tab:long) Long Data")
   * [Writing Thesis with Bookdown](https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/)
     + Section on outputting into Microsoft Word using `bookdown::preview_chapter()`
 
+  * [Writing Academic Papers with R Markdown](https://daijiang.name/en/2017/04/05/writing-academic-papers-with-rmarkdown/)
+  
 ## Rmd to MS Word
 
   * [Rmd to docx](https://rmarkdown.rstudio.com/articles_docx.html)
@@ -151,8 +153,21 @@ pandoc.table(game_long, caption = "(\\#tab:long) Long Data")
 
   * [Git](https://git-scm.com/downloads)
   
-  * Github
+## Github
+
+  * Create new repository
+
+```{r, eval=FALSE}
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/<username>/<repo-name>.git
+git push -u origin master
+```
   
+  
+
+
   * [Best Practices Using Github in RStudio](http://r-pkgs.had.co.nz/git.html)
   
   * [Tutorial on Git for Behavioral Sciences](https://vuorre.netlify.com/pdf/2017-Vuorre-Curley.pdf)

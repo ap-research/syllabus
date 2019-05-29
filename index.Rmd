@@ -12,31 +12,14 @@ github-repo: dyli999/ap-research-handbook
 description: "This notebook is a compilation of resources, research methods, and case study materials for AP Research."
 always_allow_html: yes
 ---
+
 # Research Philosophy & Ethics {-}
 
  * No Plagiarism 
  * Institutional Review Board
  * Data privacy standards
  
-
-
-
-
-  
-
-
-
-
-This is a AP Research handbook written in **Markdown**.
-
-The **bookdown** package can be installed from CRAN or Github:
-
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
-
+This AP Research Handbook is still a work in progress. Please excuse any blank sections and filler text.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

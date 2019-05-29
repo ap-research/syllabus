@@ -73,13 +73,13 @@ These notes are based on Professor Masten's [online course](https://modu.ssri.du
       + If this were a casual relationship, then we could plant more trees in a neighborhood and expect crime to go down. However, this is unlikely. More likely, people who tend to commit less crimes chose to live in neighborhoods with tree-lined streets.
       
   * Average Treatment Effect
-      - Causal effects vary among people, so there is a distribution of causal effects in the population.
-      - Theoretical ideal: you would know the unit level of causal effect for each person and thus make individualized treatment decisions. This is impossible in practice. You can't know the effect of receiving and not receiving treatment for an individual.
-      - Unit-level causal effect: difference in outcome between treatment & control, holding all other variables fixed
-      - Avg. treatment effect (ATE): avg. of all values for unit-level causal effects in a population
-      - Avg. outcome under the policy: avg. outcome when everyone is affected by the policy (i.e., receives treatment)
-      - Avg. outcome without the policy: avg. outcome when everyone is not affected by policy (i.e., does not receive treatment)
-      - ATE = Avg. outcome under policy - Avg. outcome w/o policy
+    - Causal effects vary among people, so there is a distribution of causal effects in the population.
+    - Theoretical ideal: you would know the unit level of causal effect for each person and thus make individualized treatment decisions. This is impossible in practice. You can't know the effect of receiving and not receiving treatment for an individual.
+    - Unit-level causal effect: difference in outcome between treatment & control, holding all other variables fixed
+    - Avg. treatment effect (ATE): avg. of all values for unit-level causal effects in a population
+    - Avg. outcome under the policy: avg. outcome when everyone is affected by the policy (i.e., receives treatment)
+    - Avg. outcome without the policy: avg. outcome when everyone is not affected by policy (i.e., does not receive treatment)
+    - ATE = Avg. outcome under policy - Avg. outcome w/o policy
   
 
 ### Experiments

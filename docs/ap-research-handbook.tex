@@ -123,7 +123,7 @@
     \preauthor{}\postauthor{}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-05-22}
+    \date{2019-05-29}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -133,6 +133,20 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+
+%Allow for more levels in bullet lists
+%https://github.com/Witiko/markdown/issues/2
+%https://tex.stackexchange.com/questions/41408/a-five-level-deep-list
+\usepackage{enumitem}
+\setlistdepth{20}
+\renewlist{itemize}{itemize}{20}
+% initially, use dots for all levels
+\setlist[itemize]{label=$\cdot$}
+
+% customize the first 3 levels
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=--}
+\setlist[itemize,3]{label=*}
 
 \begin{document}
 \maketitle
@@ -155,17 +169,7 @@
   Data privacy standards
 \end{itemize}
 
-This is a AP Research handbook written in \textbf{Markdown}.
-
-The \textbf{bookdown} package can be installed from CRAN or Github:
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{# or the development version}
-\CommentTok{# devtools::install_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
+This AP Research Handbook is still a work in progress. Please excuse any blank sections and filler text.
 
 \hypertarget{intro}{%
 \chapter{Research Question}\label{intro}}
@@ -386,6 +390,86 @@ While the bibliography is placed at the end of research papers, reference manage
 \hypertarget{file-organization}{%
 \chapter{File Organization}\label{file-organization}}
 
+\hypertarget{research-concepts}{%
+\chapter{Research Concepts}\label{research-concepts}}
+
+\hypertarget{reliability-validity}{%
+\section{Reliability \& Validity}\label{reliability-validity}}
+
+\hypertarget{accuracy-vs.-precision}{%
+\section{Accuracy vs.~Precision}\label{accuracy-vs.-precision}}
+
+\hypertarget{bias-vs.-variance-tradeoff}{%
+\section{Bias vs.~Variance Tradeoff}\label{bias-vs.-variance-tradeoff}}
+
+\hypertarget{curse-of-dimensionality}{%
+\section{Curse of Dimensionality}\label{curse-of-dimensionality}}
+
+\hypertarget{correlation-vs.-causation}{%
+\section{Correlation vs.~Causation}\label{correlation-vs.-causation}}
+
+\hypertarget{research-design}{%
+\chapter{Research Design}\label{research-design}}
+
+Before you decide how you will conduct your research, read through the \href{https://libguides.usc.edu/writingguide/researchdesigns}{list of research designs} in the USC library guide.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.nyu.edu/classes/bkg/methods/005847ch1.pdf}{What is Research Design?}
+\end{itemize}
+
+\hypertarget{action}{%
+\section{Action}\label{action}}
+
+\hypertarget{case-study}{%
+\section{Case Study}\label{case-study}}
+
+\hypertarget{causal}{%
+\section{Causal}\label{causal}}
+
+\hypertarget{cohort}{%
+\section{Cohort}\label{cohort}}
+
+\hypertarget{cross-sectional}{%
+\section{Cross Sectional}\label{cross-sectional}}
+
+\hypertarget{descriptive}{%
+\section{Descriptive}\label{descriptive}}
+
+\hypertarget{experimental}{%
+\section{Experimental}\label{experimental}}
+
+\hypertarget{exploratory}{%
+\section{Exploratory}\label{exploratory}}
+
+\hypertarget{historical}{%
+\section{Historical}\label{historical}}
+
+\hypertarget{longitudinal}{%
+\section{Longitudinal}\label{longitudinal}}
+
+\hypertarget{meta-analysis}{%
+\section{Meta-Analysis}\label{meta-analysis}}
+
+\hypertarget{mixed-methods}{%
+\section{Mixed Methods}\label{mixed-methods}}
+
+\hypertarget{observational}{%
+\section{Observational}\label{observational}}
+
+\hypertarget{philosophical}{%
+\section{Philosophical}\label{philosophical}}
+
+\hypertarget{sequential}{%
+\section{Sequential}\label{sequential}}
+
+\hypertarget{systematic-review}{%
+\section{Systematic Review}\label{systematic-review}}
+
+\hypertarget{quasi-experimental}{%
+\section{Quasi-experimental}\label{quasi-experimental}}
+
 \hypertarget{qualmethods}{%
 \chapter{Qualitative Research Methods}\label{qualmethods}}
 
@@ -395,8 +479,8 @@ While the bibliography is placed at the end of research papers, reference manage
   \href{https://course.ccs.neu.edu/is4800sp12/resources/qualmethods.pdf}{Qualitative Research Methods Field Guide}
 \end{itemize}
 
-\hypertarget{case-study}{%
-\section{Case Study}\label{case-study}}
+\hypertarget{case-study-1}{%
+\section{Case Study}\label{case-study-1}}
 
 \hypertarget{narrative}{%
 \section{Narrative}\label{narrative}}
@@ -410,6 +494,12 @@ While the bibliography is placed at the end of research papers, reference manage
 \hypertarget{grounded-theory}{%
 \section{Grounded Theory}\label{grounded-theory}}
 
+\begin{itemize}
+\tightlist
+\item
+  \href{https://pdfs.semanticscholar.org/5886/43f9ded159acc42daeefed6f1d1952bea546.pdf}{Grounded Theory as Scientific Method}
+\end{itemize}
+
 \hypertarget{quantitative-methods}{%
 \chapter{Quantitative Methods}\label{quantitative-methods}}
 
@@ -418,9 +508,6 @@ While the bibliography is placed at the end of research papers, reference manage
 \addcontentsline{toc}{section}{Causal Inference}
 
 These notes are based on Professor Masten's \href{https://modu.ssri.duke.edu/topic/introduction-causal-inference}{online course} on Causal Inference at the Social Science Research Institute at Duke.
-
-\hypertarget{introduction}{%
-\subsection{Introduction}\label{introduction}}
 
 \begin{itemize}
 \item
@@ -497,7 +584,6 @@ These notes are based on Professor Masten's \href{https://modu.ssri.duke.edu/top
 \subsection{Experiments}\label{experiments}}
 
 \begin{itemize}
-\tightlist
 \item
   Controlled Experiments
 
@@ -515,7 +601,7 @@ These notes are based on Professor Masten's \href{https://modu.ssri.duke.edu/top
     Typically used in hard sciences, but difficult to achieve in social sciences given the myriad of factors, many of which are difficult to measure and control
   \end{itemize}
 \item
-  Randomized experiments
+  Randomized Experiments
 
   \begin{itemize}
   \tightlist
@@ -524,8 +610,139 @@ These notes are based on Professor Masten's \href{https://modu.ssri.duke.edu/top
   \item
     Right after randomization and before the experiment, both groups should be similar (i.e., avg. values of factors should be about the same), because the split was done randomly and the groups are very large
   \item
-    Since the two groups are similar in all factors except treatment, changes in the \emph{average} outcomes are due to treatement
+    Since the two groups are similar in all factors except treatment, changes in the \emph{average} outcomes are due to treatment
+  \item
+    Complications:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Noncompliance: Even when you randomly assign treatment, people in the treatment group may not all decide to take the treatment. Also, some people in the control group, who should not receive the treatment, might decide to get the treatment.
+
+      \begin{itemize}
+      \tightlist
+      \item
+        Solution 1: Intent to Treat Analysis
+
+        \begin{itemize}
+        \tightlist
+        \item
+          The \emph{intent} to provide treatment is by design random regardless of treatment non-compliance.
+        \item
+          Thus, we can examine the causal effect of the option of providing treatment.
+        \item
+          Downside: cannot analyze causal effect of treatment itself
+        \item
+          For example, in the Oregon Health Experiment, while a lottery randomly selected people to receive free Medicaid, there was noncompliance in both the treatment/control groups. Original interpretation (effect of Medicaid on health outcomes) can be revised to effect of Medicaid lottery assignment on health outcomes.
+        \end{itemize}
+      \item
+        Solution 2: Instrumental Variables
+
+        \begin{itemize}
+        \tightlist
+        \item
+          Advantage: We can analyze the causal effect of the treatment (not just the option of treatment) for a subset of the population.
+        \item
+          Downside: cannot analyze average treatment effect over the entire population
+        \end{itemize}
+      \item
+        Solution 3: Assume random compliance
+
+        \begin{itemize}
+        \tightlist
+        \item
+          Assume people comply with their treatment assignment.
+        \item
+          Just drop the entries of the non-compliers.
+        \item
+          Advantage: We can analyze the causal effect of the treatment over the entire population.
+        \item
+          Downside: Decision to not comply is probably not random. We don't observe the reasons for non-compliance.
+        \end{itemize}
+      \item
+        Solution 4: Bounds analysis
+
+        \begin{itemize}
+        \tightlist
+        \item
+          Get lower/upper bounds of average treatment effects using extreme scenarios.
+        \item
+          Upper bounds: assume maximum value for outcome variable for noncompliers
+        \item
+          Lower bounds: assume minimum value for outcome variable for noncompliers
+        \end{itemize}
+      \end{itemize}
+    \item
+      Survey nonresponse
+
+      \begin{itemize}
+      \tightlist
+      \item
+        If nonresponse is not random, you cannot interpret the treatment effect as causal.
+      \item
+        Example: People in the treatment group with negative outcomes responded to surveys at higher rates than those with positive experiences. Data becomes biased toward negative outcomes for the treatment group.
+      \end{itemize}
+    \item
+      Sample Size: Even with a great research design, small sample size limits statistical inference.
+    \item
+      Control: You may not be able to control the assignment of treatment.
+    \end{itemize}
+  \item
+    Issues:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Ethics: Random assignment of treatment may have difficult ethical considerations (e.g., withholding a potentially life-saving drug to a terminally ill patient assigned to a control group in a randomized trial).
+    \item
+      Extrapolation: It may be hard to extrapolate the results of a randomized experiment to another study if the treatment conditions and features are different.
+    \end{itemize}
   \end{itemize}
+\item
+  Natural Experiments
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Researchers not involved in the research design and data collection in natural experiments, unlike in randomized experiments.
+  \item
+    observational data used instead
+  \item
+    Example: charter school lotteries
+  \end{itemize}
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    True Natural Experiments
+
+    \begin{itemize}
+    \tightlist
+    \item
+      treatment was randomly assigned, just not by researcher
+    \end{itemize}
+  \item
+    As-If Natural Experiments
+
+    \begin{itemize}
+    \tightlist
+    \item
+      treatment not actually randomly assigned, but the treatment/control groups appear randomized as though treatment assignment were random)
+    \item
+      treatment assignment not related to any variables that could affect outcome
+    \item
+      balance check: characteristics of all observed variables (other than outcome variable) need to be similar between the treatment/control groups
+
+      \begin{itemize}
+      \tightlist
+      \item
+        There could still be differences between groups in unobserved variables.
+      \item
+        Thus, we cannot prove treatment assignment is truly random, but balanced observed variables between groups would be part of a convincingly arugment that the observational data represents an as-if natural experiment.
+      \end{itemize}
+    \end{itemize}
+  \end{enumerate}
 \end{itemize}
 
 \hypertarget{regression-as-causality}{%
@@ -1204,81 +1421,81 @@ X\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 1\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
--0.8\strut
+0.5\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
--0.3\strut
+-1.5\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 X\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 2\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
-0.4\strut
+0\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
-1\strut
+-1\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 X\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 3\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
-1.1\strut
+0.6\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
--0.3\strut
+0.1\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Y\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 1\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
--0.4\strut
+-0.5\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+0.2\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\centering
+Y\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+2\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
 0.4\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\centering
-Y\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-2\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
--0.2\strut
-\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
-2.6\strut
+0.7\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Y\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 3\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
--0.3\strut
+0.4\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
-0.8\strut
+1.5\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Z\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 1\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
--0.1\strut
+-1.4\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
-0.3\strut
+-1\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Z\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 2\strut
-\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
-0.9\strut
-\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
--0.4\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\centering
-Z\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-3\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
 0.2\strut
 \end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
-0.5\strut
+-0.5\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\centering
+Z\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+-1.2\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+0\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
@@ -1296,7 +1513,7 @@ Z\strut
 id\strut
 \end{minipage} & \begin{minipage}[b]{0.08\columnwidth}\centering
 A\_1\strut
-\end{minipage} & \begin{minipage}[b]{0.08\columnwidth}\centering
+\end{minipage} & \begin{minipage}[b]{0.07\columnwidth}\centering
 A\_2\strut
 \end{minipage} & \begin{minipage}[b]{0.08\columnwidth}\centering
 A\_3\strut
@@ -1314,7 +1531,7 @@ B\_3\strut
 id\strut
 \end{minipage} & \begin{minipage}[b]{0.08\columnwidth}\centering
 A\_1\strut
-\end{minipage} & \begin{minipage}[b]{0.08\columnwidth}\centering
+\end{minipage} & \begin{minipage}[b]{0.07\columnwidth}\centering
 A\_2\strut
 \end{minipage} & \begin{minipage}[b]{0.08\columnwidth}\centering
 A\_3\strut
@@ -1330,47 +1547,47 @@ B\_3\strut
 \begin{minipage}[t]{0.06\columnwidth}\centering
 X\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
--0.8\strut
+0.5\strut
+\end{minipage} & \begin{minipage}[t]{0.07\columnwidth}\centering
+0\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
-0.4\strut
+0.6\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
-1.1\strut
+-1.5\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
--0.3\strut
+-1\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
-1\strut
-\end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
--0.3\strut
+0.1\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Y\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
--0.4\strut
-\end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
--0.2\strut
-\end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
--0.3\strut
+-0.5\strut
+\end{minipage} & \begin{minipage}[t]{0.07\columnwidth}\centering
+0.4\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
 0.4\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
-2.6\strut
+0.2\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
-0.8\strut
+0.7\strut
+\end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
+1.5\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Z\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
--0.1\strut
-\end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
-0.9\strut
-\end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
+-1.4\strut
+\end{minipage} & \begin{minipage}[t]{0.07\columnwidth}\centering
 0.2\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
-0.3\strut
+-1.2\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
--0.4\strut
+-1\strut
 \end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
-0.5\strut
+-0.5\strut
+\end{minipage} & \begin{minipage}[t]{0.08\columnwidth}\centering
+0\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
@@ -1414,10 +1631,37 @@ X\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 A\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
--0.8\strut
+0.5\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 X\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+2\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
+A\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+0\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\centering
+X\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
+A\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+0.6\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\centering
+Y\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+1\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
+A\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+-0.5\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\centering
+Y\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 2\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
@@ -1426,40 +1670,13 @@ A\strut
 0.4\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
-X\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-3\strut
-\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
-A\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-1.1\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\centering
-Y\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-1\strut
-\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
-A\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
--0.4\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\centering
-Y\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-2\strut
-\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
-A\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
--0.2\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\centering
 Y\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 3\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 A\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
--0.3\strut
+0.4\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Z\strut
@@ -1468,34 +1685,34 @@ Z\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 A\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
--0.1\strut
+-1.4\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Z\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 2\strut
-\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
-A\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-0.9\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.06\columnwidth}\centering
-Z\strut
-\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-3\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 A\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 0.2\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
+Z\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+3\strut
+\end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
+A\strut
+\end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
+-1.2\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.06\columnwidth}\centering
 X\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
 1\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
--0.3\strut
+-1.5\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 X\strut
@@ -1504,7 +1721,7 @@ X\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-1\strut
+-1\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 X\strut
@@ -1513,7 +1730,7 @@ X\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
--0.3\strut
+0.1\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Y\strut
@@ -1522,7 +1739,7 @@ Y\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-0.4\strut
+0.2\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Y\strut
@@ -1531,7 +1748,7 @@ Y\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-2.6\strut
+0.7\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Y\strut
@@ -1540,7 +1757,7 @@ Y\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-0.8\strut
+1.5\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Z\strut
@@ -1549,7 +1766,7 @@ Z\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-0.3\strut
+-1\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Z\strut
@@ -1558,7 +1775,7 @@ Z\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
--0.4\strut
+-0.5\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.06\columnwidth}\centering
 Z\strut
@@ -1567,7 +1784,7 @@ Z\strut
 \end{minipage} & \begin{minipage}[t]{0.14\columnwidth}\centering
 B\strut
 \end{minipage} & \begin{minipage}[t]{0.10\columnwidth}\centering
-0.5\strut
+0\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
@@ -1696,6 +1913,18 @@ Beamer is a LaTeX class for presentations.
   \item
     Section on outputting into Microsoft Word using \texttt{bookdown::preview\_chapter()}
   \end{itemize}
+\item
+  \href{https://daijiang.name/en/2017/04/05/writing-academic-papers-with-rmarkdown/}{Writing Academic Papers with R Markdown}
+\end{itemize}
+
+\hypertarget{rmd-to-ms-word}{%
+\section{Rmd to MS Word}\label{rmd-to-ms-word}}
+
+\begin{itemize}
+\item
+  \href{https://rmarkdown.rstudio.com/articles_docx.html}{Rmd to docx}
+\item
+  \href{https://community.rstudio.com/t/nice-tables-when-knitting-to-word/3840}{Discussion on Using knitr for Word output}
 \end{itemize}
 
 \hypertarget{version-control}{%
@@ -1703,14 +1932,37 @@ Beamer is a LaTeX class for presentations.
 \addcontentsline{toc}{chapter}{Version Control}
 
 \begin{itemize}
+\tightlist
 \item
   \href{https://git-scm.com/downloads}{Git}
+\end{itemize}
+
+\hypertarget{github}{%
+\section{Github}\label{github}}
+
+\begin{itemize}
+\tightlist
 \item
-  Github
+  Create new repository
+\end{itemize}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{git init}
+\NormalTok{git add README.md}
+\NormalTok{git commit }\OperatorTok{-}\NormalTok{m }\StringTok{"first commit"}
+\NormalTok{git remote add origin https}\OperatorTok{:}\ErrorTok{//}\NormalTok{github.com}\OperatorTok{/}\ErrorTok{<}\NormalTok{username}\OperatorTok{>}\ErrorTok{/<}\NormalTok{repo}\OperatorTok{-}\NormalTok{name}\OperatorTok{>}\NormalTok{.git}
+\NormalTok{git push }\OperatorTok{-}\NormalTok{u origin master}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{itemize}
 \item
   \href{http://r-pkgs.had.co.nz/git.html}{Best Practices Using Github in RStudio}
 \item
   \href{https://vuorre.netlify.com/pdf/2017-Vuorre-Curley.pdf}{Tutorial on Git for Behavioral Sciences}
+\item
+  \href{https://happygitwithr.com/}{Github and R}
 \end{itemize}
 
 \bibliography{book.bib,packages.bib}
