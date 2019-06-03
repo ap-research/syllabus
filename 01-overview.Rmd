@@ -1,0 +1,52 @@
+# Course Objectives
+
+1. Develop research proposal that demonstrates ability to define research topic and question with accompanying literature review.
+2. Design proper research procedures that apply sound methodology to address research question.
+3. Analyze and evaluate research findings with appropriate methods.
+4. Apply general research tools such as source management software and version control to organize academic paper.
+5. Gain familiarity with academic and industry standards of reproducible research.
+6. Communicate research effectively with well crafted presentation slides.
+
+# Recommended Resources
+```{r, echo = FALSE, results="asis",eval=TRUE} 
+bib[c("creswell","gray")]
+``` 
+
+# Curricular Requirements
+
+The [College Board Syllabus Development Guide](https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-course-audit/ap-research-syllabus-development-guide.pdf) lists the following curricular requirements for AP Research:
+
+> **CR1a:** Students develop and apply discrete skills identified in the learning objectives within the Big Idea 1: Question and Explore.
+
+>  **CR1b:** Students develop and apply discrete skills identified in the learning objectives within the Big Idea 2: Understand and Analyze. 
+
+>  **CR1c:** Students develop and apply discrete skills identified in the learning objectives within the Big Idea 3: Evaluate Multiple Perspectives.
+
+>  **CR1d:** Students develop and apply discrete skills identified in the learning objectives within the Big Idea 4: Synthesize Ideas.
+
+>  **CR1e:** Students develop and apply collaboration skills identified in the learning objectives within the Big Idea 5: Team, Transform, and Transmit.
+
+>  **CR1f:** Students develop and apply reflection skills identified in the learning objectives within the Big Idea 5: Team, Transform, and Transmit.
+
+>  **CR1g:** Students develop and apply written and oral communication skills identified in the learning objectives within the Big Idea 5: Team, Transform, and Transmit.
+
+>  **CR2a:** Students develop an understanding of ethical research practices.
+
+>  **CR2b:** Students develop an understanding of the AP Capstone Policy on Plagiarism and Falsification or Fabrication of Information.
+
+>  **CR3:** In the classroom and independently (while possibly consulting any expert advisors), students learn and employ research and inquiry methods to develop, manage, and conduct an in-depth investigation of an area of personal interest, culminating in an academic paper of 4,000-5,000 words that includes the following elements:
+>
+>  * Introduction
+>  * Method, Process, or Approach
+>  * Results, Product, or Findings
+>  * Discussion, Analysis, and/or Evaluation
+>  * Conclusion and Future Directions
+>  * Bibliography
+  
+>  **CR4a:** Students document their inquiry processes, communicate with their teachers and any expert advisors, and reflect on their thought processes.
+
+>  **CR4b:** Students have regular work-in-progress interviews with their teachers to review their progress and to receive feedback on their scholarly work as evidenced by the PREP.
+
+>  **CR5:** Students develop and deliver a presentation (using an appropriate medium) and an oral defense to a panel on their research processes, method, and findings.
+
+<!-- Testing testing. \index{CR5} -->

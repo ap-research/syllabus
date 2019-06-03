@@ -1,25 +1,18 @@
 --- 
-title: "AP Research Handbook"
+title: "AP Research Syllabus"
 author: ""
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
-documentclass: book
+documentclass: article
 bibliography: [book.bib, packages.bib]
-biblio-style: apalike
+biblio-style: "apalike"
+csl: apa.csl
 link-citations: yes
-github-repo: dyli999/ap-research-handbook
-description: "This notebook is a compilation of resources, research methods, and case study materials for AP Research."
+github-repo: apscholar/ap-research-syllabus
+description: "This notebook includes a syllabus and detailed course schedule for AP Research"
 always_allow_html: yes
 ---
-
-# Research Philosophy & Ethics {-}
-
- * No Plagiarism 
- * Institutional Review Board
- * Data privacy standards
- 
-This AP Research Handbook is still a work in progress. Please excuse any blank sections and filler text.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
@@ -27,3 +20,29 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=FALSE, dev='png')
+mon <- as.Date("2016-08-15")
+# fri <- as.Date("2016-01-08")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+
+library(RefManageR)
+# library(knitcitations)
+# library(rcrossref)
+bib <- ReadBib("book.bib")
+BibOptions(bib.style = "authoryear", style="markdown", first.inits=TRUE, max.names = 4, check.entries = FALSE)
+
+```
+# Course Description
+**Prerequisite:** AP Seminar  
+AP Research is a one-year course that culminates in a 4000- to 5000-word academic paper and a 15- to 20-minute presentation with oral defense. Students will learn the process of academic research as well as industry-aligned research tools. Depending on the students' research topics, research methods aligned with the AP Statistics curriculum may be integrated into mini-workshops.
