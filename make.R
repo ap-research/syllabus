@@ -10,7 +10,7 @@ i <- grep("^index", rmd)
 
 #knit by chapter (html)
 #p = find file position in rmd vector
-p <- grep("^07", rmd)
+p <- grep("^01", rmd)
 bookdown::preview_chapter(rmd[p])
 
 #output handbook to Word

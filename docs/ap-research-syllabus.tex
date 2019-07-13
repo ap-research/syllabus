@@ -24,12 +24,10 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{unicode=true,
-            pdftitle={AP Research Syllabus},
+            pdftitle={AP® Research Syllabus},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
-\usepackage{natbib}
-\bibliographystyle{apalike}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -76,14 +74,14 @@
 
 \setlength{\droptitle}{-2em}
 
-  \title{AP Research Syllabus}
+  \title{AP\textsuperscript{®} Research Syllabus}
     \pretitle{\vspace{\droptitle}\centering\huge}
   \posttitle{\par}
     \author{}
     \preauthor{}\postauthor{}
       \predate{\centering\large\emph}
   \postdate{\par}
-    \date{2019-06-02}
+    \date{2019-07-13}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -108,6 +106,8 @@
 \setlist[itemize,2]{label=--}
 \setlist[itemize,3]{label=*}
 
+\usepackage{bibentry}
+
 %https://bookdown.org/yihui/bookdown/latex-index.html
 \usepackage{makeidx}
 \makeindex
@@ -122,8 +122,8 @@
 \hypertarget{course-description}{%
 \section{Course Description}\label{course-description}}
 
-\textbf{Prerequisite:} AP Seminar\\
-AP Research is a one-year course that culminates in a 4000- to 5000-word academic paper and a 15- to 20-minute presentation with oral defense. Students will learn the process of academic research as well as industry-aligned research tools. Depending on the students' research topics, research methods aligned with the AP Statistics curriculum may be integrated into mini-workshops.
+\textbf{Prerequisite:} AP\textsuperscript{®} Seminar\\
+AP\textsuperscript{®} Research is a one-year course that culminates in a 4000- to 5000-word academic paper and a 15- to 20-minute presentation with oral defense. Students will learn the process of academic research as well as industry-aligned research tools. Depending on the students' research topics, research methods aligned with the AP\textsuperscript{®} Statistics curriculum may be integrated into mini-workshops.
 
 \hypertarget{course-objectives}{%
 \section{Course Objectives}\label{course-objectives}}
@@ -152,7 +152,7 @@ Creswell, J. W. (2009). \emph{Research Design: Qualitative,
 Quantitative, and Mixed Methods Approaches}. Thousand Oaks, CA:
 SAGE Publications.
 
-Gray, P. S, J. B. Williamson, D. A. Karp, and J. R. Dalphin
+Gray, P. S., Williamson, J. B., Karp, D. A., \& Dalphin, J. R.
 (2007). \emph{The Research Imagination: An Introducation to Qualitative
 and Quantitative Methods}. New York, NY: Cambridge University
 Press.
@@ -230,8 +230,6 @@ The \href{https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-course
 \textbf{CR5:} Students develop and deliver a presentation (using an appropriate medium) and an oral defense to a panel on their research processes, method, and findings.
 \end{quote}
 
-Testing testing. \index{CR5}
-
 \hypertarget{course-schedule}{%
 \section{Course Schedule}\label{course-schedule}}
 
@@ -247,8 +245,17 @@ Testing testing. \index{CR5}
 \hypertarget{unit-4}{%
 \subsection{Unit 4}\label{unit-4}}
 
-\bibliography{book.bib,packages.bib}
+\hypertarget{references}{%
+\section*{References}\label{references}}
+\addcontentsline{toc}{section}{References}
 
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
+\noindent
+
+%manually set hanging indents for references
 \pdfbookmark[0]{\indexname}{Index}
 \printindex
 

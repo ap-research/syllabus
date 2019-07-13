@@ -1,12 +1,11 @@
 --- 
-title: "AP Research Syllabus"
+title: "AP^&reg;^ Research Syllabus"
 author: ""
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: article
 bibliography: [book.bib, packages.bib]
-biblio-style: "apalike"
 csl: apa.csl
 link-citations: yes
 github-repo: apscholar/ap-research-syllabus
@@ -42,7 +41,11 @@ library(RefManageR)
 bib <- ReadBib("book.bib")
 BibOptions(bib.style = "authoryear", style="markdown", first.inits=TRUE, max.names = 4, check.entries = FALSE)
 
+#https://stackoverflow.com/questions/46260431/include-the-text-of-a-bibentry-in-the-rmarkdown-text-body-output
+# library(bibtex)
+# biblio <- bibtex::read.bib(file="book.bib")
 ```
+
 # Course Description
-**Prerequisite:** AP Seminar  
-AP Research is a one-year course that culminates in a 4000- to 5000-word academic paper and a 15- to 20-minute presentation with oral defense. Students will learn the process of academic research as well as industry-aligned research tools. Depending on the students' research topics, research methods aligned with the AP Statistics curriculum may be integrated into mini-workshops.
+**Prerequisite:** AP^&reg;^ Seminar  
+AP^&reg;^ Research is a one-year course that culminates in a 4000- to 5000-word academic paper and a 15- to 20-minute presentation with oral defense. Students will learn the process of academic research as well as industry-aligned research tools. Depending on the students' research topics, research methods aligned with the AP^&reg;^ Statistics curriculum may be integrated into mini-workshops.

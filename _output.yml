@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="https://apscholar.github.io/ap-research">AP Research</a></li>
+        <li><a href="https://scholar.netlify.com/research">AP<sup>&reg;</sup> Research</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit:
@@ -13,6 +13,6 @@ bookdown::pdf_book:
     in_header: preamble.tex
     after_body: post.tex
   latex_engine: xelatex
-  citation_package: natbib
+  citation_package:
   keep_tex: yes
 bookdown::epub_book: default

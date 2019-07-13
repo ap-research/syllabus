@@ -10,6 +10,7 @@
 # Recommended Resources
 ```{r, echo = FALSE, results="asis",eval=TRUE} 
 bib[c("creswell","gray")]
+# biblio[c("creswell","gray")]
 ``` 
 
 # Curricular Requirements
