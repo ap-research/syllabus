@@ -1,21 +1,100 @@
 # Course Objectives
 
 1. Develop research proposal that demonstrates ability to define research topic and question with accompanying literature review.
-2. Design proper research procedures that apply sound methodology to address research question.
+2. Design proper research procedures that apply sound methods to address research question.
 3. Analyze and evaluate research findings with appropriate methods.
 4. Apply general research tools such as source management software and version control to organize academic paper.
 5. Gain familiarity with academic and industry standards of reproducible research.
 6. Communicate research effectively with well crafted presentation slides.
 
-# Recommended Resources
+<!-- # Content Overview -->
+
+<!-- QUEST: -->
+
+<!-- * Question and Explore -->
+<!-- * Understand and Analyze -->
+<!-- * Evaluate Multiple Perspectives -->
+<!-- * Synthesize Ideas -->
+<!-- * Team, Transform, and Transmit -->
+
+# Policies
+
+## Rules and Expectations
+
+1. Respect
+
+    * Please observe and uphold the Golden Rule by treating others as you would like to be treated.
+    * We should all be respectful of each other in all written and verbal communications, especially when providing constructive feedback during the peer review process.
+
+2. Responsibility
+
+    * Take ownership of your learning and research process. You are the expert of your chosen topic.
+    * We all have a shared responsibility to help each other grow through the peer review process.
+
+3. Resilience
+
+    * Research is a long and arduous process, often with unforeseen obstacles and undefined paths.
+    * You should persevere even in the face of adversity. Don't let setbacks discourage you from moving ahead with your research.
+    
+## AP Capstone Policy on Plagiarism and Falsification or Fabrication of Information
+
+Please read and comply with the following policy issued by @cb:
+
+> Participating teachers shall inform students of the consequences of plagiarism and instruct students to ethically use and acknowledge the ideas and work of others throughout their coursework. The student’s individual voice should be clearly evident, and the ideas of others must be acknowledged, attributed, and/or cited.
+
+> A student who fails to acknowledge the source or author of any and all information or evidence taken from the work of someone else through cita
+tion, attribution or reference in the body of the work, or through a bibliographic entry, will receive a score of 0 on that particular component of the AP Seminar and/or AP Research Performance Task. In AP Seminar, a team of students that fails to properly acknowledge sources or authors on the Team Multimedia Presentation will receive a group score of 0 for that component of the Team Project and Presentation.A student who incorporates falsified or fabricated information (e.g. evidence, data, sources, and/or authors) will receive a score of 0 on that particular component of the AP Seminar and/or AP Research Performance Task. In AP Seminar, a team of students that incorporates falsified or fabricated information in the Team Multimedia Presentation will receive a group score of 0 for that component of the Team Project and Presentation.
+
+> A student who incorporates falsified or fabricated information (e.g., evidence, data, sources, and/or authors) will receive a score of 0 on that particular component of the AP Seminar and/or AP Research Performance Task. In AP Seminar, a team of students that incorporates falsified or fabricated information in the Team Multimedia Presentation will receive a group score   of 0 for that component of the Team Project and Presentation (p. 14).
+
+## Expert Advisors
+
+You are allowed to seek expert advisors to provide general feedback on your research. Expert advisors may include on-campus faculty members or other experts in your field of inquiry. Please check with your AP Research teacher before contacting potential expert advisors.
+
+For more details on policies regarding expert advisors, please refer to pages 51--52 of the [AP Research Course and Exam Description](https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf){target="_blank"}. You teacher may inform you of additional school policies regarding communication with expert advisors.
+
+## Institutional Review Board (IRB)
+
+If your research involves human subjects, you will most likely need to go through an Institutional Review Board (IRB) process to ensure compliance with research ethics. Please read page 44 of the [AP Research Course and Exam Description](https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf){target="_blank"} for more information. You may go through the IRB approval process in two ways:
+
+1. IRB at nearby university or local science fair committee
+2. IRB committee established at your school
+
+You may not collect any data or conduct any research involving human subjects until an IRB committee has approved your proposed research. Please see your teacher to discuss IRB options if your research will involve human subjects. **[CR2a]** \index{CR2a}
+
+## Consent Forms
+
+You must receive the written consent of all research participants. Your teacher may provide you with a consent form template that you can adapt to fit your research method. The adapted consent form should be appended to the IRB form for review prior to conducting your research. If research participants are under the age of 18, their parents will also need to sign the consent form. **[CR2a]** \index{CR2a}
+
+# Textbooks
+
+<!-- \begin{hangparas}{0.5in}{1} -->
+
 ```{r, echo = FALSE, results="asis",eval=TRUE} 
-bib[c("creswell","gray")]
+bib[c("workbook","creswell","gray")]
 # biblio[c("creswell","gray")]
 ``` 
 
+<!-- \end{hangparas} -->
+
+You are not required to purchase these texts, since the relevant pages will be provided to you as reference. In this class, we will refer to the texts above as Workbook, Creswell, and Gray et al., respectively.
+
+# Deadlines and Important Dates
+
+Please note that some of the following deadlines may be earlier than the official College Board deadlines as a buffer for unforeseen issues such as technical difficulties. These dates are subject to change. Your teacher will inform you via e-mail regarding any deadline adjustments.
+
+* October 31, 2019: Inquiry Proposal Form
+* November 29, 2019: Research Proposal
+* December 20, 2019: Annotated Bibliography
+* February 28, 2020: Academic Paper (first draft)
+* March 16, 2020: Academic Paper (second draft)
+* April 1--15, 2020: Presentation and Oral Defense
+* April 25, 2020: Final Academic Paper
+* May 31, 2020: Process and Reflection Portfolio (PREP)
+
 # Curricular Requirements
 
-The [College Board Syllabus Development Guide](https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-course-audit/ap-research-syllabus-development-guide.pdf) lists the following curricular requirements for AP Research:
+The [College Board Syllabus Development Guide](https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-course-audit/ap-research-syllabus-development-guide.pdf){target="_blank"} lists the following curricular requirements for AP Research:
 
 > **CR1a:** Students develop and apply discrete skills identified in the learning objectives within the Big Idea 1: Question and Explore.
 
@@ -48,6 +127,259 @@ The [College Board Syllabus Development Guide](https://secure-media.collegeboard
 
 >  **CR4b:** Students have regular work-in-progress interviews with their teachers to review their progress and to receive feedback on their scholarly work as evidenced by the PREP.
 
->  **CR5:** Students develop and deliver a presentation (using an appropriate medium) and an oral defense to a panel on their research processes, method, and findings.
+>  **CR5:** Students develop and deliver a presentation (using an appropriate medium) and an oral defense to a panel on their research processes, method, and findings [@syllabus].
 
-<!-- Testing testing. \index{CR5} -->
+# Deliverables
+
+## Annotated Bibliography
+
+In preparation for the literature review section of your paper, you will create an annotated bibliography of your collected sources. You will describe the key results of each source and show the connection to your research question. As you expand the annotated bibliography, you should consider how you will synthesize the sources into a cohesive literature review for your final paper. Furthermore, your search will allow you to uncover a gap in the literature that you will include in your paper to motivate the relevance and originality of your research question.
+
+## Inquiry Proposal Form
+
+Before students begin conducting their research, they must submit an inquiry proposal form to their teacher for approval. Research that involves human subjects will go through an Institutional Review Board (IRB) process to ensure compliance with research ethics. If your research requires IRB review, your inquiry proposal form should include a completed IRB form as well as any accompanying documents such as proposed surveys, interview questions, or questionnaires. Your teacher will not grant approval of your inquiry proposal form until your proposed research has passed IRB review. **[CR2a] [CR3]** \index{CR2a} \index{CR3}
+
+During the approval process of your inquiry proposal form, you are not allowed to begin conducting research. However, in the meanwhile, you should continue your literature review and study general methods applicable to your proposed research as preparation. 
+
+## Poster Presentation
+
+Your initial practice and formulation of your final presentation will be an informal poster presentation in which you will present a short elevator speech of your research topic with a poster that contains a problem statement, research question, hypotheses, proposed methods, and references. **[CR1g] [CR5]** \index{CR1g} \index{CR5}
+
+## Research Blueprint Poster
+
+After you have learned more about the research design and methods appropriate for your research, you will design an informal research blueprint poster that outlines your proposed methods. This poster will help you design the methods section of your final presentation slides and provide an opportunity for peer review before you delineate your research methods in more detail in the research proposal. **[CR1g] [CR5]** \index{CR1g} \index{CR5}
+
+## Research Proposal
+
+After your teacher approves your inquiry proposal form, you may proceed with your research and develop a lengthier research proposal to fine tune and expand upon elements of the inquiry proposal form. The research proposal will contain an introduction with a focused research question and hypothesis, initial draft of a literature review, and details of proposed methods. Many elements of the research proposal will be similar to your responses in the inquiry proposal form, but some sections such as the literature review should include more synthesis and reflect your teacher's feedback on the inquiry proposal form. This research proposal can serve as a template for the first draft of your academic paper. **[CR3]** \index{CR3}
+
+## Process and Reflection Portfolio (PREP)
+
+In order to keep track of the research process, students will keep a digital Process and Reflection Portfolio (PREP). The final PREP version should document each step of the research process and include the following items: **[CR4a]** \index{CR4a}
+
+* Readme file
+* Research question (formulation process)
+* Annotated bibliography
+* IRB and consent forms
+* Documentation of interactions with expert advisors
+* Inquiry proposal form
+* Research proposal
+* Paper drafts
+* Data with documentation
+* Peer review (comments/reflection)
+* Poster presentation
+* Presentation slides
+* Oral defense preparation questions
+* Reflection on research process
+* Student signature of attestation: "I affirm that all work contained in this Process and Reflection Portfolio (PREP) is my own and complies with the AP Capstone Policy on Plagiarism and Falsification or Fabrication of Information."
+
+In your weekly check-ins with your teacher, you will use your PREP to demonstrate your research progress. **[CR4b]** \index{CR4b}
+
+## Academic Paper
+
+Your final academic paper should contain 4000--5000 words and include the following components: **[CR3]** \index{CR3}
+
+1. Introduction
+
+    * You should contextualize your focused research question in the field of inquiry by synthesizing a literature review that describes the current understanding of your research topic.
+    * After the literature review, you should identify a gap in the literature that demonstrates the value of your research question.
+    * Your research question should also include your hypothesis or set of hypotheses that you will test using a research method.
+    
+2. Method, Process, or Approach
+    
+    * You should select and justify your choice of a qualitative, quantitative, or mixed methods approach to test your research question.
+    * Ensure that your method is replicable by describing each step of the process in detail with references to additional materials in the appendix if necessary.
+    
+3. Results, Products, or Findings
+
+    * Describe both the evidence and results in detail. 
+    * Explain how you used the evidence in your research method to obtain your results.
+    
+4. Discussion, Analysis, and/or Evaluation
+
+    * Describe the implications of your findings. If your research did not yield expected results, explain why you believe the outcome did not match your hypothesis.
+    * Connect your findings to your research question and the broader field of inquiry.
+    * Address limitations of your study.
+    * Discuss directions for further studies.
+    
+## Presentation and Oral Defense
+
+You will have 20 minutes to present your research and answer questions from a three-member panel. Your AP Research teacher will be part of the panel and select two additional panel members. While the other panel members will provide notes and input regarding your presentation, only your AP Research teacher will conduct the actual scoring, which will constitute 25% of your official AP Research score.
+
+After your presentation, each member of the panel will ask one question from the list of oral defense questions found on pages 58--59 of the [AP Research Course and Exam Description](https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf){target="_blank"}. You will receive one question from each section of the list. Since the oral defense component counts toward the 20-minute limit, you should consider completing your presentation in 16 minutes to allow for enough time for oral defense questions. **[CR5]** \index{CR5}
+
+# Grades
+
+## AP Research Official Score
+
+  * 75%: Academic paper (4000--5000 words) scored by College Board
+  * 25%: Presentation and oral defense (20 minutes) scored by your AP Research teacher
+  
+## AP Research Course Grade
+
+Since the components that go into your official AP Research score cannot be part of your course grade, the grading for this course will mostly focus on the research process. The grading weights of each stage of the research process are as follows:
+
+  * 20%: Process and Reflection Portfolio (PREP) 
+  * 10%: Inquiry Proposal Form
+  * 10%: Poster Presentation
+  * 10%: Research Blueprint Poster
+  * 10%: Research Proposal
+  * 10%: Annotated Bibliography
+  * 10%: 1st Draft of Academic Paper (completion/non-evaluative)
+  * 10%: 2nd Draft of Academic Paper (completion/non-evaluative)
+  * 10%: Final Draft of Academic Paper (completion/non-evaluative)
+
+
+
+# Pacing Guide
+
+## Unit 1: Introduction
+
+**July/August**: Develop research ideas/topics and formulate focused research questions. **[CR1a] [CR1b]** \index{CR1a} \index{CR1b}
+
+1. Use Workbook (pp. 18--26) as a guide to turn a problem statement in your field of inquiry into a focused research question. **[CR1a]** \index{CR1a}
+
+2. E-mail your teacher with your proposed research topic and focused research question. You may submit multiple topics/questions if you have not decided on just one. **[CR1g]** \index{CR1g}
+
+3. Begin your PREP by documenting the process of formulating each iteration of your research question, which should have the following features: **[CR4a]** \index{CR4a}
+    - focused: narrowing in scope
+    - valuable: contributes to a new understanding in the field
+    - feasible: replicable method that can be completed in a few months in time for the final paper deadline
+
+**August/September**: Conduct preliminary research on a research topic. Begin annotated bibliography. Refine research question and begin research proposals. Gain familiarity with the academic paper rubric. **[CR1b] [CR1c] [CR1d]** \index{CR1b} \index{CR1c} \index{CR1d}  
+
+4. Refer to Workbook (pp. 6--9) to explore different ways of knowing across disciplines. **[CR1c]** \index{CR1c}
+
+    - In your PREP, reflect on how your chosen discipline engages in research using your collected sources as examples. **[CR1f] [CR4a]** \index{CR1f} \index{CR4a}
+  
+5. Use Workbook (pp. 64--81) as a guide to begin your annotated bibliography. Focus on the following points:
+  
+    - Select a discipline-specific style (e.g., MLA, APA, or Chicago) used in your field of inquiry. Refer to Workbook (p. 65) and [Purdue OWL](https://owl.purdue.edu/owl/purdue_owl.html){target="_blank"} for detailed documentation on citation styles.
+    - Select and use a reference management software such as [Mendeley](https://www.mendeley.com){target="_blank"} to organize your sources and integrate your bibliography into Microsoft Word or LaTeX.
+    - Go through the process of SMARTER searches to ensure that sources are situated in your topic of inquiry from multiple perspectives, relevant to your research question, and integrated into the broader field of knowledge (Workbook, pp. 75--76). **[CR1c] [CR1d]** \index{CR1c} \index{CR1d}
+    - Begin your annotated bibliography with 5--10 sources. Add 5--10 sources every week to your annotated bibliography until you have enough sources to develop a literature review. Refer to Workbook (pp. 77-81) for sample annotated bibliography entries.
+    - When finding sources, you should use the PAARC test to assess credibility, validity, and relevance (Workbook, pp. 82--83).
+  
+6. Go through previous AP Research [sample papers](https://apcentral.collegeboard.org/courses/ap-research/exam/past-exam-questions?course=ap-research){target="_blank"}. Annotate sample papers using the [new AP Research paper rubic](https://apcentral.collegeboard.org/pdf/ap18-sg-research-academic-paper.pdf){target="_blank"}.
+
+## Unit 2: Topic to Proposal
+
+**October/November**: Complete research proposals for approval. Synthesize annotated bibliography into literature review. **[CR1d] [CR3]** \index{CR1d} \index{CR3}
+
+1. As a class, we will go over important ethical pratices in research, including the following:
+
+    - AP Capstone Policy on Plagiarism and Falsification or Fabrication of Information **[CR2b]** \index{CR2b}
+    - Institutional Review Board (IRB) process for research involving human subjects **[CR2a]** \index{CR2a}
+    - Consent forms for research participants **[CR2a]** \index{CR2a}
+    - Parental permission for research participants under age 18 **[CR2a]** \index{CR2a}
+    
+2. Do a dry run of an inquiry method using the Health Halos Experiment (Workbook, pp. 148--153). As a class, use this topic to fill out an inquiry proposal form as a sample.
+
+3. With you own research topic, complete an initial draft of the inquiry proposal form. **[CR3]** \index{CR3}
+
+4. As your first presentation practice, you will use p. 77 of the Workbook as a reference to develop a brief elevator speech with an informal poster that contains the following elements: **[CR5]** \index{CR5}
+    
+    - Proposal title
+    - Problem statement & research question
+    - Definitions, hypotheses, and importance of study
+    - Proposed research methods
+    - List of sources
+
+5. Develop slides to present elements of the inquiry proposal form for peer review. **[CR1e] [CR1g] [CR5]** \index{CR1e} \index{CR1g} \index{CR5}
+6. Revise inquiry proposal form to reflect peer review comments. **[CR1e] [CR1f]** \index{CR1e} \index{CR1f}
+
+7. Submit inquiry proposal form to teacher for approval. If applicable, you should include IRB forms and identify potential expert advisors. You may not begin conducting research until your teacher approves your inquiry proposal form. **[CR2a] [CR3]** \index{CR2a} \index{CR3}
+
+8. Establish weekly PREP check-ins with your teacher. **[CR4b]** \index{CR4b}
+    - Store your PREP on a cloud server and share a password-protected URL link with your teacher for weekly progress check-ups.
+    - Create a folder in your PREP to document reflections on peer review comments as well as feedback from your teacher and expert advisors. **[CR1f]** \index{CR1f}
+
+## Unit 3: Research Methods
+
+**November/December**: Learn and implement replicable research methods to address research question. **[CR3]** \index{CR3}
+
+1. Review Chapter 3 of Gray et al. (2007, pp. 33--56) for an overview on research design.
+
+2. Go to the [USC Libraries Research Guides](https://libguides.usc.edu/writingguide/researchdesigns){target="_blank"}. Under "Types of Research Design" tab, skim through the various research designs to identify the one that most closely matches your proposed research design as well as those found in your annotated bibliography.
+    - Learn more about your research design and the specific research methods you will employ to conduct your research.
+    - As a starting point, establish if you will use qualitative, quantitative, or mixed methods. Reference "6. The Methodology" tab in [USC Libraries Research Guides](https://libguides.usc.edu/writingguide/researchdesigns){target="_blank"} before you embark on more specific methods. 
+    
+3. Review Chapters 8, 9, and 10 in Creswell (2009, pp. 145--225) for quantitative, qualitative, and mixed methods, respectively.
+
+4. Create a research blueprint poster and present your proposed research design/methods to the class for peer review. **[CR1e] [CR1g]** \index{CR1e} \index{CR1g}
+    
+5. Based on your approved inquiry proposal form and peer review comments on your research blueprint presentation, develop an expanded and refined research proposal, which will serve as a template for your initial paper draft. The research proposal should contain the following sections:
+    - Research question and hypothesis
+    - Literature review
+    - Proposed research methods
+  
+4. Continue weekly PREP check-ins. In this unit, our check-ins will focus on the following items: **[CR4b]** \index{CR4b}
+    - Continue to build more sources into annotated bibliography.
+    - Synthesize annotated bibliography into an initial literature review draft for the research proposal. **[CR1d]** \index{CR1d}
+    - Align research question with literature review and research methods. By the time you begin applying your research methods, your research question should no longer shift to ensure that you are not trying to make the data fit your question.
+    - Demonstrate that you are learning enough about your research methods to apply them properly in your own research. Create a separate folder in your PREP to document your learning process on research methods. **[CR1f] [CR4a]** \index{CR1f} \index{CR4a}
+    
+## Unit 4: Academic Paper Drafts & Peer Review
+
+**January/February**: Complete implementation of research methods. Undergo peer review of academic paper drafts. **[CR3] [CR1e]** \index{CR3} \index{CR1e}
+
+1. Finish conducting your research and documenting your results in your PREP. **[CR4a]** \index{CR4a}
+
+2. Adapt your research proposal into the first draft of your academic paper. Refine the methods section of your paper to reflect findings from your research. Include a new section that analyzes and evaluates your results. Your conclusion should include limitations of the study and directions for future studies. **[CR3]** \index{CR3}
+
+    - Submit your initial draft for peer review.
+    - File the peer review comments from your classmates into your PREP.
+
+
+3. Develop slides on your research method and findings. Present results to the class for peer review. **[CR1e] [CR1g]** \index{CR1e} \index{CR1g}
+
+
+## Unit 5: Final Academic Paper, Presentation, and Oral Defense
+
+**March/April**: Complete and submit final academic paper. Conduct 20-minute presentation with oral defense. **[CR3] [CR5]** \index{CR3} \index{CR5}
+
+1. Incorporate peer review feedback into the second draft of the paper. **[CR1e]** \index{CR1e}
+
+    - Submit your second draft for a final round of peer review.
+    - File the peer review comments from your classmates into your PREP.
+    
+2. Refer to pages 58--59 of the [AP Research Course and Exam Description](https://apcentral.collegeboard.org/pdf/ap-research-course-and-exam-description.pdf){target="_blank"} for the list of oral defense questions. You will receive one question per section for a total of three questions and possibly some follow-up questions. **[CR5]** \index{CR5}
+
+    - In your PREP, outline some responses to these questions as preparation for your oral defense. You will not know ahead of time which questions the panel will ask, so do not try to memorize responses.
+
+3. Finalize academic paper and submit it to AP Digital Portfolio. Your teacher will dedicate class time for students to upload their final papers a few days before the official deadline. **[CR3]** \index{CR3}
+
+4. Sign up for a 20-minute time slot to present and orally defend your research. Prior to the presentations, we will go over the [presentation and oral defense rubric](https://secure-media.collegeboard.org/ap/pdf/ap17-sg-research-presentation.pdf){target="_blank"}. The presentations and oral defense will be recorded. **[CR5]** \index{CR5}
+
+## Unit 6: Beyond AP Research
+
+**May/June**: Finalize PREP and begin introduction to research tools necessary for research at the undergraduate and graduate levels.
+
+1. Finalize your PREP with the following points in mind: **[CR4a]** \index{CR4a}
+
+    - Include a readme file that documents the contents and purpose of each folder and file in your PREP. Anyone who reads through your readme file should be able to understand how to navigate your PREP without ever having worked with you during the research process.
+    
+    - Finalize data documentation that includes metadata (i.e., data about the data) and step-by-step instructions that show how you used the data in your research methods to arrive at your results. Anyone with your PREP should be able to locate the data documentation file from your readme file descriptions and follow your instructions to replicate your results.
+    
+2. Explore current best practices of reproducible research.
+
+    - We will learn basics of literate and data programming with the following software:
+        + R (using RStudio)
+        + LaTeX (using TeXStudio)
+        + R Sweave (Rnw files = R + LaTeX)
+        + R Markdown (R + Markdown to produce HTML, Word, LaTeX, and PDF outputs)
+        
+    - We will explore the basic concepts behind version control using Git and GitHub.
+        + Instead of saving multiple versions of the same file with version numbers appended to the file name, you can use just one file and commit changes to a repository, which will store metadata about each version of the file.
+
+3. Develop a basic static website to showcase your research for college applications and future employment.
+
+    - We will use the R `blogdown` package to develop a basic static website with Hugo, an open-source website generator.
+    - Your research website may include the following elements:
+        + About section
+        + Research portfolio
+        + Research blog posts
+        + Publication section
+    - We will also go through the process of hosting the website, but this step is completely optional.
+
+\newpage

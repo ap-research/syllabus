@@ -10,15 +10,15 @@ i <- grep("^index", rmd)
 
 #knit by chapter (html)
 #p = find file position in rmd vector
-p <- grep("^01", rmd)
+p <- grep("^07", rmd)
 bookdown::preview_chapter(rmd[p])
 
-#output handbook to Word
+#Word output
 bookdown::render_book(rmd[i],
-          output_format = "bookdown::word_document2",
-          output_file = paste0("AP_Research_Handbook", "_", format(Sys.Date(), ("%Y-%m-%d")), ".docx"),
-          output_dir = "msword",                          ,
-          output_options = list(reference_docx = file.path("msword","word-style-ref.docx")))
+                      output_format = "bookdown::word_document2",
+                      output_file = paste0("ap-research-syllabus", "_", format(Sys.Date(), ("%Y-%m-%d")), ".docx"),
+                      output_dir = "msword",                          ,
+                      output_options = list(reference_docx = file.path("msword","word-style-ref.docx")))
 
 #output chapter preview to Word
 bookdown::preview_chapter(rmd[p],

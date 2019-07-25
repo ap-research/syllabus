@@ -1,3 +1,4 @@
+% \usepackage[letterpaper, margin=2in]{geometry}
 \usepackage{booktabs}
 \usepackage{amsthm}
 \makeatletter
@@ -21,8 +22,28 @@
 \setlist[itemize,2]{label=--}
 \setlist[itemize,3]{label=*}
 
-\usepackage{bibentry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkbordercolor = {white},
+    linkcolor = {black},
+    urlcolor = {blue},
+    citecolor = {blue},
+    anchorcolor = {blue},
+    bookmarksopen = true,
+    bookmarksdepth=2
+}
 
+\usepackage{bibentry}
+\usepackage{hanging}
 %https://bookdown.org/yihui/bookdown/latex-index.html
+%https://tex.stackexchange.com/questions/57427/how-to-add-printindex-to-tableofcontents
 \usepackage{makeidx}
+% \usepackage{imakeidx}
+% \indexsetup{level=\section}
+% \usepackage[totoc]{idxlayout}
 \makeindex
+\usepackage[nottoc]{tocbibind}
+
+% \setlength{\bibhang}{0.5in}
