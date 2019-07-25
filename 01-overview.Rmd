@@ -84,12 +84,14 @@ You are not required to purchase these texts, since the relevant pages will be p
 Please note that some of the following deadlines may be earlier than the official College Board deadlines as a buffer for unforeseen issues such as technical difficulties. These dates are subject to change. Your teacher will inform you via e-mail regarding any deadline adjustments.
 
 * October 31, 2019: Inquiry Proposal Form
+* November 15, 2019: Poster Presentation
 * November 29, 2019: Research Proposal
 * December 20, 2019: Annotated Bibliography
+* January 10, 2020: Research Blueprint Poster
 * February 28, 2020: Academic Paper (first draft)
 * March 16, 2020: Academic Paper (second draft)
 * April 1--15, 2020: Presentation and Oral Defense
-* April 25, 2020: Final Academic Paper
+* April 24, 2020: Final Academic Paper
 * May 31, 2020: Process and Reflection Portfolio (PREP)
 
 # Curricular Requirements
@@ -168,6 +170,7 @@ In order to keep track of the research process, students will keep a digital Pro
 * Data with documentation
 * Peer review (comments/reflection)
 * Poster presentation
+* Research blueprint poster
 * Presentation slides
 * Oral defense preparation questions
 * Reflection on research process
@@ -269,7 +272,7 @@ Since the components that go into your official AP Research score cannot be part
 1. As a class, we will go over important ethical pratices in research, including the following:
 
     - AP Capstone Policy on Plagiarism and Falsification or Fabrication of Information **[CR2b]** \index{CR2b}
-    - Institutional Review Board (IRB) process for research involving human subjects **[CR2a]** \index{CR2a}
+    - IRB process for research involving human subjects **[CR2a]** \index{CR2a}
     - Consent forms for research participants **[CR2a]** \index{CR2a}
     - Parental permission for research participants under age 18 **[CR2a]** \index{CR2a}
     
@@ -277,7 +280,7 @@ Since the components that go into your official AP Research score cannot be part
 
 3. With you own research topic, complete an initial draft of the inquiry proposal form. **[CR3]** \index{CR3}
 
-4. As your first presentation practice, you will use p. 77 of the Workbook as a reference to develop a brief elevator speech with an informal poster that contains the following elements: **[CR5]** \index{CR5}
+4. Use p. 77 of the Workbook as a reference to develop a brief elevator speech with an informal poster containing the following elements: **[CR5]** \index{CR5}
     
     - Proposal title
     - Problem statement & research question
@@ -374,12 +377,9 @@ Since the components that go into your official AP Research score cannot be part
 
 3. Develop a basic static website to showcase your research for college applications and future employment.
 
-    - We will use the R `blogdown` package to develop a basic static website with Hugo, an open-source website generator.
+    - We will use the R `blogdown` package to develop a basic static website with Hugo, an open-source website generator. Hosting the site is completely optional.
     - Your research website may include the following elements:
-        + About section
         + Research portfolio
         + Research blog posts
         + Publication section
-    - We will also go through the process of hosting the website, but this step is completely optional.
-
 \newpage
