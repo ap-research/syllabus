@@ -3,7 +3,12 @@ title: "AP^&reg;^ Research Syllabus"
 author: ""
 date: 2019-07-25
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: 
+  bookdown::gitbook:
+    config:
+      sharing: null
+        # facebook: false
+        # twitter: false
 documentclass: article
 fontsize: 11pt
 geometry: margin=1in
